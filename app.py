@@ -40,9 +40,9 @@ client = Groq(
 )
 
 llm = ChatGroq(
-    groq_api_key=GROQ_API_KEY,
-    model="llama-3.3-70b-versatile",
-    temperature=0.3
+   groq_api_key=GROQ_API_KEY,
+   model="openai/gpt-oss-120b",
+   temperature=0.3
 )
 
 # --------------------------------------------------
